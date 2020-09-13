@@ -38,7 +38,7 @@ def GameStart():
     for character in secret: # printing blanks for each letter in secret word
         word_guess.append("-")
 
-    print("----------------------The word You need to guess has", Word_lenght, "characters--------------------")
+    print("-----------The word You need to guess has", Word_lenght, "characters--------------------")
 
     print("Be aware that You can enter only 1 letter from a-z\n\n")
 
